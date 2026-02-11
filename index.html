@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#d36a2c" />
+
+  <link rel="manifest" href="manifest.json" />
+  <title>Study Plan Tracker</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <span class="brand-badge"></span>
+      Study Plan
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+
+    <!-- Add Subject -->
+    <section class="panel">
+      <h2>Add a new subject</h2>
+      <p>Add only remaining subjects and organize them by semester.</p>
+
+      <div class="form-grid">
+
+        <div>
+          <label for="subjectName">Subject name</label>
+          <input id="subjectName" type="text" placeholder="IPG101 - مقدمة في البرمجة" />
+        </div>
+
+        <div>
+          <label for="subjectSemester">Semester</label>
+          <select id="subjectSemester">
+            <option value="current">This semester</option>
+            <option value="next">Next semester</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="subjectNotes">How will you study it?</label>
+          <textarea id="subjectNotes" placeholder="محاضرات + تلخيص + حل أسئلة"></textarea>
+        </div>
+
+        <div>
+          <label for="subjectContent">Subject content</label>
+          <textarea id="subjectContent" placeholder="يركز على المبادئ الأساسية للبرمجة"></textarea>
+        </div>
+
+        <div>
+          <label for="subjectExam">Exam details</label>
+          <textarea id="subjectExam" placeholder="اختبار نظري + عملي"></textarea>
+        </div>
+
+        <div>
+          <label for="subjectChannels">Study channels</label>
+          <input id="subjectChannels" type="text" placeholder="https://t.me/..." />
+        </div>
+
+        <div>
+          <label for="subjectSources">External sources</label>
+          <input id="subjectSources" type="text" placeholder="https://Youtube.com/..." />
+        </div>
+
+      </div>
+
+      <div class="btn-row">
+        <button class="btn btn-primary" id="addBtn">Add subject</button>
+        <button class="btn btn-secondary" id="clearBtn">Clear</button>
+      </div>
+    </section>
+
+    <!-- Subjects Lists -->
+    <section class="columns">
+
+      <div class="panel">
+        <h2>This Semester</h2>
+        <div class="list" id="currentSemesterList"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Next Semester</h2>
+        <div class="list" id="nextSemesterList"></div>
+      </div>
+
+    </section>
+
+  </main>
+  <!-- JS -->
+  <script src="script/app.js"></script>
+</body>
+
+</html>
