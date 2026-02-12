@@ -14,7 +14,7 @@
 
 body {
   margin: 0;
-  font-family: "Montserrat", system-ui, sans-serif;
+  font-family: "Tajawal", "Cairo", "Montserrat", system-ui, sans-serif;
   color: var(--ink);
   background:
     radial-gradient(900px 360px at 90% -5%, #ffd9b9 0%, transparent 65%),
@@ -506,5 +506,28 @@ footer {
 .item-details {
   direction: rtl;
   text-align: right;
-  unicode-bidi: plaintext;
+  unicode-bidi: normal;
+}
+.ar-text {
+  direction: rtl;
+  text-align: right;
+  margin-top: 8px;
+}
+
+.ar-text strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.links-block {
+  direction: ltr;
+  text-align: left;
+}
+
+.links-block ul,
+.links-block li,
+.links-block a {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }

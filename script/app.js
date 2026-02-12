@@ -180,7 +180,7 @@ function parseLinks(raw) {
   return { links, invalid };
 }
 function createMetaLine(label, value) { if (!value) return null; const line = document.createElement("div"); line.innerHTML = `<strong>${label}:</strong> ${value}`; return line; }
-function createLinksBlock(label, links) { if (!links || !links.length) return null; const block = document.createElement("div"); const title = document.createElement("strong"); title.textContent = label + ":"; const list = document.createElement("ul"); links.forEach(link => { const li = document.createElement("li"); const a = document.createElement("a"); a.href = link; a.textContent = link; a.target = "_blank"; li.appendChild(a); list.appendChild(li); }); block.appendChild(title); block.appendChild(list); return block; }
+function createLinksBlock(label, links) { if (!links || !links.length) return null; const block = document.createElement("div"); block.className = "links-block"; const title = document.createElement("strong"); title.textContent = label + ":"; const list = document.createElement("ul"); links.forEach(link => { const li = document.createElement("li"); const a = document.createElement("a"); a.href = link; a.textContent = link; a.target = "_blank"; li.appendChild(a); list.appendChild(li); }); block.appendChild(title); block.appendChild(list); return block; }
 
 function createItemCard(item, index) {
   const card = document.createElement("div"); card.className = "item";
