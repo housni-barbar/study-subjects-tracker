@@ -392,6 +392,7 @@ footer {
   border-top: 1px dashed rgba(115, 100, 85, 0.3);
 }
 
+/* Expanded info styling */
 .item-details {
   color: #2a241e;
   font-size: 14.5px;
@@ -499,4 +500,11 @@ footer {
   gap: 10px;
   border-top: 1px solid rgba(115, 100, 85, 0.15);
   background: #fffdf9;
+}
+
+/* Fix Arabic text direction */
+.item-details {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
 }
