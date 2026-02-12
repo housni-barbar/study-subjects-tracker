@@ -259,6 +259,21 @@ function editItem(index) {
 addBtn.addEventListener("click", addItem);
 clearBtn.addEventListener("click", resetForm);
 
+// Load initial data from backup JSON if localStorage is empty
+if (!localStorage.getItem(storageKey)) {
+  fetch("backup-subjects.json")
+    .then(res => res.json())
+    .then(data => {
+      if (Array.isArray(data)) {
+        saveSubjects(data);
+        render();
+      }
+    })
+    .catch(err => {
+      console.error("Failed to load backup-subjects.json", err);
+    });
+}
+
 render();
 
 if ("serviceWorker" in navigator) {
