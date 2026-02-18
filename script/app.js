@@ -349,7 +349,7 @@ const modalOverlay = document.createElement("div");
 modalOverlay.className = "subject-modal-overlay hidden";
 modalOverlay.innerHTML = `
   <div class="subject-modal" role="dialog" aria-modal="true" aria-labelledby="subjectModalTitle">
-    <button class="subject-modal-close" type="button" aria-label="Close">x</button>
+    <button class="subject-modal-close" type="button" aria-label="Close">×</button>
     <h3 id="subjectModalTitle"></h3>
     <div class="subject-modal-body"></div>
   </div>
@@ -419,7 +419,7 @@ function createItemCard(item) {
 
   const arrow = document.createElement("span");
   arrow.className = "arrow";
-  arrow.textContent = "Open";
+  arrow.textContent = "open";
 
   header.appendChild(title);
   header.appendChild(badge);
