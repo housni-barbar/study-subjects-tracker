@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg-deep: #070b16;
   --bg-main: #0d1324;
   --bg-soft: #111a30;
@@ -184,14 +184,15 @@ body.modal-open {
   position: fixed;
   inset: 0;
   background: rgba(4, 8, 18, 0.72);
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 14px;
   z-index: 1200;
 }
 
 .subject-modal {
-  width: min(760px, 94vw);
+  width: min(760px, calc(100vw - 28px));
   max-height: 84vh;
   overflow: auto;
   background: linear-gradient(180deg, #162647, #0f1b34);
@@ -200,6 +201,7 @@ body.modal-open {
   box-shadow: 0 24px 48px rgba(0, 0, 0, 0.46);
   padding: 16px 16px 14px;
   position: relative;
+  margin: 0 auto;
 }
 
 .subject-modal h3 {
@@ -331,10 +333,11 @@ footer {
   }
 
   .subject-modal {
-    width: 100%;
+    width: calc(100vw - 20px);
     max-height: 82vh;
     border-radius: 14px;
     padding: 14px 12px 12px;
+    margin: 0 auto;
   }
 
   .subject-modal h3 {
