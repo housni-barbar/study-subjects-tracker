@@ -1,7 +1,7 @@
 {
   "name": "Study Subjects Tracker",
   "short_name": "Subjects",
-  "start_url": ".",
+  "start_url": "./study-subjects-tracker/",
   "display": "standalone",
   "background_color": "#f5f1ea",
   "theme_color": "#d36a2c",
