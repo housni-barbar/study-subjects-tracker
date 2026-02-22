@@ -11,8 +11,8 @@ const subjects = [
       "https://t.me/VC_GBS101_QUIZ",
       "https://t.me/GBS101_qudes"
     ],          // روابط قنوات الدراسة
-    sources: ["https://www.youtube.com/watch?v=-AK3a3rZ9Gs&list=PLBYJSOYbCXnDglV7JlmJKV3dwwVZEZ662",
-      "https://www.edraak.org/programs/specialization/icdlsp-vv2/"
+    sources: ["https://tinyurl.com/bddhe665",
+      "https://tinyurl.com/bdedc55y"
     ]            // روابط مصادر خارجية
   },
   {
@@ -52,7 +52,7 @@ const subjects = [
       "https://t.me/IPG101_EXAM"
     ],          // روابط قنوات الدراسة
     sources: ["https://t.me/ipgmxm/7644",
-      "https://youtube.com/playlist?list=PLHIfW1KZRIfm8nQAoJF5u2aV43tMRAAmr&si=BUH16ZD96XOQeJLB",
+      "https://tinyurl.com/2xhwmhna",
       "https://www.w3schools.com/cs/index.php"
     ]            // روابط مصادر خارجية
 
@@ -70,11 +70,10 @@ const subjects = [
       "https://t.me/iis101test",
       "https://t.me/IIS101_Qudes"
     ],          // روابط قنوات الدراسة
-    sources: ["https://www.youtube.com/watch?v=yLc0Yp5QZlU&list=PL37D52B7714788190",
-      "https://www.youtube.com/watch?v=QYKnX2VFkH8&t=1441s&pp=ygUK2LTYsditIGVyZA%3D%3D",
-      "https://youtube.com/playlist?list=PLB8C3FC57C924A7D0&si=lLGEBPkRGR-4XjFY",
-      "https://www.youtube.com/watch?v=tolWV1pVWmw&list=RDMYQnRPQd7z8&index=2",
-      "https://www.youtube.com/watch?v=k3ZGhM7Y_Vg&t=544s"
+    sources: [
+      "https://tinyurl.com/y65s3ucp",
+      "https://tinyurl.com/yd9b3p47",
+      "https://tinyurl.com/muuxa8h2"
     ]            // روابط مصادر خارجية
 
   },
@@ -94,11 +93,13 @@ const subjects = [
   {
     name: "ENG 1",
     semester: "semester1", // هنا الفصل الاول
-    notes: "",             // كيف رح تدرس المادة
+    notes: "حضور كورس الدكتورة نعمات الحناوي عاليوتيوب بالاضافة الى حفظ المواضيع وحل اسئلة الاختبار ",             // كيف رح تدرس المادة
     content: "يركز هذا المقرر على بناء أساس متين في اللغة الإنجليزية، حيث يغطي القواعد والمفردات الأساسية اللازمة لفهم النصوص التقنية البسيطة والتواصل بشكل فعال في بيئة العمل الأولية.",           // محتوى المادة
-    exam: "",              // معلومات عن الامتحان
-    channels: [],          // روابط قنوات الدراسة
-    sources: []            // روابط مصادر خارجية
+    exam: "يتألف الامتحان من 30 الى 35 سؤال متنوع ما عدا الموضوع ,عادة الموضوع المستوى الاول يكون اما وصفي (وصف مكان - شخص - شيء) ونستعمل فيه الزمن الحاضر البسيط او سردي (سرد قصة من الماضي ) مثلا افضل يوم او اسوء يوم ونستعمل فيه الزمن الماضي البسيط ",              // معلومات عن الامتحان
+    channels: ["https://t.me/+jYxMDMYxAU9mZTk0",
+      "https://t.me/duhaibrahimSVUL1"
+    ],          // روابط قنوات الدراسة
+    sources: ["https://tinyurl.com/rfp6hnms"]            // روابط مصادر خارجية
 
   },
 
@@ -111,7 +112,7 @@ const subjects = [
     exam: "يتكون امتحان هذه المادة من 20 إلى 25 سؤالاً، ويركز بشكل شامل على قياس فهمك للمفاهيم النظرية، وقدرتك على تحليل المقاطع البرمجية، ومهارتك في اكتشاف الأخطاء (Debugging). عادة، يتراوح مستوى صعوبة الأسئلة بين السهل والمتوسط",              // معلومات عن الامتحان
     channels: ["https://t.me/ipg202mxm"],          // روابط قنوات الدراسة
     sources: ["https://t.me/ipg202mxm/1212",
-      "https://youtube.com/playlist?list=PLHIfW1KZRIfm8nQAoJF5u2aV43tMRAAmr&si=BUH16ZD96XOQeJLB"
+      "https://tinyurl.com/2xhwmhna"
     ]            // روابط مصادر خارجية
   },
   {
@@ -128,7 +129,7 @@ const subjects = [
       "https://t.me/INT101_Y_M"  // روابط قنوات الدراسة
     ],
     "sources": [
-      "https://youtube.com/playlist?list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c&si=L3yWzpglFfMkponx"
+      "https://tinyurl.com/ycxds96w"
     ]          // روابط مصادر خارجية
   },
   {
@@ -164,21 +165,22 @@ const subjects = [
     channels: ["https://t.me/Akram_IIS201_IIS202",
       "https://t.me/iis201ahmads23"
     ],          // روابط قنوات الدراسة
-    sources: ["https://youtube.com/playlist?list=PL1DUmTEdeA6J6oDLTveTt4Z7E5qEfFluE&si=wW538hyaHrwmbDtl",
-      "https://www.youtube.com/watch?v=yLc0Yp5QZlU&list=PL37D52B7714788190",
-      "https://www.youtube.com/watch?v=QYKnX2VFkH8&t=1441s&pp=ygUK2LTYsditIGVyZA%3D%3D",
-      "https://youtube.com/playlist?list=PLB8C3FC57C924A7D0&si=lLGEBPkRGR-4XjFY",
-      "https://www.youtube.com/watch?v=k3ZGhM7Y_Vg&t=544s"
+    sources: ["https://tinyurl.com/2h3z5m3j",
+      "https://tinyurl.com/y65s3ucp",
+      "https://tinyurl.com/yd9b3p47",
+      "https://tinyurl.com/muuxa8h2"
     ]            // روابط مصادر خارجية
   },
   {
     name: "ENG 2",
     semester: "semester2", // ← هنا الفصل الثاني
-    notes: "",             // كيف رح تدرس المادة
+    notes: "حضور كورس الدكتورة نعمات الحناوي عاليوتيوب بالاضافة الى حفظ المواضيع وحل اسئلة الاختبار",             // كيف رح تدرس المادة
     content: "يبني هذا المقرر على مكتسبات المستوى الأول، حيث يتناول تراكيب لغوية أكثر تعقيدًا ومصطلحات تقنية متخصصة في مجال تكنولوجيا المعلومات، بهدف تحسين قدرة الطالب على فهم المقالات التقنية وكتابة التقارير.",           // محتوى المادة
-    exam: "",              // معلومات عن الامتحان
-    channels: [],          // روابط قنوات الدراسة
-    sources: []            // روابط مصادر خارجية
+    exam: "يتألف الامتحان من 30 الى 35 سؤال متنوع ما عدا الموضوع ,عادة الموضوع المستوى الثاني يكون موضوع رأي فقط وهو عبارة عن فقرة واحدة ( مقطع واحد) اقل من 100 كلمة ما يعادل 6 او 7 سطور وتعبر فيه عن رأيك يموضوع عام جدا مثال : رأيك بالتعليم الافتراضي او رأيك بالسفر للدراسة الخ....",              // معلومات عن الامتحان
+    channels: ["https://t.me/+b09WlEicfpBhOWU0",
+      "https://t.me/duhaibrahimSVUL2"
+    ],          // روابط قنوات الدراسة
+    sources: ["https://youtu.be/4YsQZFbJ-VI?si=hRpv_2c63VdtEeys"]            // روابط مصادر خارجية
   },
 
   //  الفصل الثالث
@@ -200,8 +202,8 @@ const subjects = [
     exam: "يتمّ امتحان المادة بشكل عملي، مع إمكانية ورود بعض الأسئلة النظرية البسيطة. تتركز الأسئلة على تعليمات أساسية في اللغات والتقنيات المشمولة بالمقرر مثل HTML,CSS,ASP.Net,JS ويترواح عدد الاسئلة عادةً بين 20 و 30 ضمن الاطار العلمي والتطبيقي للمادة",              // معلومات عن الامتحان
     channels: ["https://t.me/IWB201_TIC_IWB202_BAIT_Saleh",
       "https://t.me/IWB2011b",
-      "https://t.me/IWB201MOAYAD"
-    ],          // روابط قنوات الدراسة
+      "https://t.me/IWB201MOAYAD"  // روابط قنوات الدراسة
+    ],
     sources: ["https://youtu.be/Dv39fDYei9A?si=cNiVohgPvUF0ZHcd"]            // روابط مصادر خارجية
 
   },
@@ -230,7 +232,7 @@ const subjects = [
       "https://t.me/IPG201_TIC_IPG203_BAIT_MXM" // روابط قنوات الدراسة
     ],
     sources: [
-      "https://youtube.com/playlist?list=PLHIfW1KZRIfnbNoGB0NdoRdllq9fdo6uM&si=ICq_-MMX2WuXwrXp"
+      "https://tinyurl.com/m4tvje6f"
     ]            // روابط مصادر خارجية
 
   },
@@ -240,14 +242,12 @@ const subjects = [
     notes: "حضور محاضرات الدكتور معاذ الخباز وهويدا الداوود والدكتور جهاد العيسى + ملفات المقرر \n+ حل اسئلة قنوات تلغرام", // كيف رح تدرس المادة
     content: "يقدم هذا المقرر منهجية البرمجة كائنية التوجه (OOP)، وهي طريقة متقدمة لتصميم البرمجيات تقوم على محاكاة الكائنات الواقعية. ستتعلم مفاهيم مثل الأصناف، الكائنات، والوراثة لبناء برامج مرنة وقابلة للتوسعة.", // محتوى المادة
     exam: "الامتحان متوسط الصعوبة ويتنوع بين الاسئلة النظرية والعملية التي تقيس فهم الطالب للمفاهيم الاساسية وتطبيقها C# ويتكون الامتحان من حوالي 25 سؤالا تغطي الجوانب المفاهيمية والبرمجية للمقرر", // معلومات عن الامتحان
-    channels: [
-      "https://t.me/IPG201_TIC_IPG203_BAIT_MXM",
-      "https://t.me/TICIPG203" // روابط قنوات الدراسة
+    channels: ["https://t.me/TICIPG203" // روابط قنوات الدراسة
     ],
-    "sources": [
-      "https://t.me/IPG201_TIC_IPG203_BAIT_MXM/95",
-      "https://youtube.com/playlist?list=PLX1bW_GeBRhAfq0EsDHH4YemBAd6G-H75&si=so98sUptLHnUbS2-",
-      "https://youtube.com/playlist?list=PL4K-VuBVuyoXvxPD48LjjBEUGxWxHRHQO&si=9TnUv7YYve_7jsSa" // روابط مصادر خارجية
+    sources: [
+      "https://t.me/ipg203_mxm",
+      "https://tinyurl.com/3j85zw3w",
+      "https://tinyurl.com/up849aas" // روابط مصادر خارجية
     ]
 
   },
@@ -263,18 +263,22 @@ const subjects = [
       "https://t.me/TIC_iis202_S23"
     ],
     "sources": [
-      "https://youtube.com/playlist?list=PL1DUmTEdeA6J6oDLTveTt4Z7E5qEfFluE&si=Nuc8Na238E_O2Qtb"
+      "https://tinyurl.com/4mrrhk93"
     ]
 
   },
   {
     name: "ENG 3",
     semester: "semester3", // هنا الفصل الثالث
-    notes: "",             // كيف رح تدرس المادة
+    notes: "حضور كورس الدكتورة وفاء كناكرية او الدكتورة ضحى عاليوتيوب بالاضافة الى حفظ المواضيع وحل اسئلة الاختبار",             // كيف رح تدرس المادة
     content: "يهدف المقرر إلى الوصول بالطالب إلى مستوى متقدم من الكفاءة اللغوية، حيث يتم التدرب على فهم الوثائق التقنية المعقدة، والمشاركة في النقاشات التخصصية، وكتابة المراسلات والتقارير المهنية.",           // محتوى المادة
-    exam: "",              // معلومات عن الامتحان
-    channels: [],          // روابط قنوات الدراسة
-    sources: []            // روابط مصادر خارجية
+    exam: "يتألف الامتحان من 30 الى 35 سؤال متنوع ما عدا الموضوع ,عادة الموضوع الثالث يكون مقالة متكون من ثلاث فقرات فقرة للمقدمة ثم فقرة للصلب ثم فقرة للخاتمة ويجب الفصل بين المقدمة والصلب والخاتمة لانه عم تكتب مقال وليس موضوع وعادة يكون  السؤال عن رأيك بفكرة عامة او رأيك بمحاسن الزواج المبكر الزمن المناسب هو الحاضر البسيط للرأي وعدد الكلمات 150.",              // معلومات عن الامتحان
+    channels: ["https://t.me/+16jQBIpmtKkwMjg0",
+      "https://t.me/+iLlif5Mw4HI3MmJk"
+    ],          // روابط قنوات الدراسة
+    sources: ["https://t.me/englishinthetop",
+      "https://youtu.be/MiWJrS7OGmU?si=0z9fJ1bkt1s2Ppc0"
+    ]            // روابط مصادر خارجية
 
   },
   //  الفصل الرابع 
@@ -288,7 +292,7 @@ const subjects = [
       "https://t.me/IOS202test"
     ],
     "sources": [
-      "https://youtube.com/playlist?list=PLDxVq3TlR9y2sMXaL_yLp-r6pUpevgC-w&si=jDvNV4jwmjwLw6n_" // روابط مصادر خارجية
+      "https://tinyurl.com/yww35c6a" // روابط مصادر خارجية
     ]
   },
   {
@@ -303,7 +307,7 @@ const subjects = [
       "https://t.me/ios203_AA_S24"
     ],
     "sources": [
-      "https://youtube.com/playlist?list=PLT98CRl2KxKHjHLIHrmmi5FmBGIZ8cNJE&si=HhaXcRMp9R7II5m1"// روابط مصادر خارجية
+      "https://tinyurl.com/ykm6s79p"// روابط مصادر خارجية
     ]
   },
   {
@@ -329,7 +333,7 @@ const subjects = [
       "https://t.me/IIS203_R_S" // روابط قنوات الدراسة
     ],
     sources: [
-      "https://youtube.com/playlist?list=PL1KA7P5hJ-obwTDetMyuMNUzkwTm-M6tG&si=1HrT8NxTXZpFF5IJ"  // روابط مصادر خارجية
+      "https://tinyurl.com/4b4538w7"  // روابط مصادر خارجية
     ]
   },
   {
@@ -343,7 +347,7 @@ const subjects = [
       "https://t.me/IPG204_IWB303_AA_S24" // روابط قنوات الدراسة
     ],
     sources: [
-      "https://youtube.com/playlist?list=PLCInYL3l2AajYlZGzU_LVrHdoouf8W6ZN&si=rN0HhY54jyRFYgVu"  // روابط مصادر خارجية
+      "https://tinyurl.com/3e6adhwz"  // روابط مصادر خارجية
     ]
   },
   {
@@ -466,10 +470,6 @@ function render() {
 
 render();
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js")
-    .then(() => console.log("Service Worker Registered"))
-    .catch(err => console.log("SW Error:", err));
-
   navigator.serviceWorker.addEventListener("controllerchange", () => {
     window.location.reload();
   });
