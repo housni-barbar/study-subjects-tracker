@@ -401,8 +401,8 @@ function openSubjectModal(item) {
       <div><strong>Study method:</strong> ${item.notes || ""}</div>
       <div><strong>Content:</strong> ${item.content || ""}</div>
       <div><strong>Exam:</strong> ${item.exam || ""}</div>
-      ${createLinksBlock("Channels:", item.channels)}
-      ${createLinksBlock("Sources:", item.sources)}
+      ${createLinksBlock("Channels ( optional ) :", item.channels)}
+      ${createLinksBlock("Sources ( optional ) :", item.sources)}
     </div>
   `;
 
